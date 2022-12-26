@@ -8,6 +8,7 @@
 ## 1. 전처리
 사용 데이터 : "beer_id"(맥주번호),"review_profilename"(리뷰 작성자), "beer_style"(맥주 스타일)
 1-1. 사용 데이터를 이용하여 beer_id 와 review_profilename 사이에 interaction이 존재하는 항목을 바탕으로 matrix 생성
+- 성능 이슈로 인해 일정 기간 이하의 data만을 사용
 1-2. beer_id와 beer_style를 dict형태로 저장
 
 ## 2. 모델링
